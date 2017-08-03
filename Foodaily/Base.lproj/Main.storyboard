@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Breetty-Regular.otf">
+            <string>Breetty</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Foodaily" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MHv-82-bhm">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="750" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F8l-oK-J3j" customClass="LoginTextField" customModule="Foodaily" customModuleProvider="target">
+                                        <rect key="frame" x="33" y="184" width="348" height="60"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" priority="999" constant="60" id="6vh-E9-SVW"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="60" id="kWc-dm-0v9"/>
+                                        </constraints>
+                                        <color key="textColor" red="0.90588235294117647" green="0.29803921568627451" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Breetty" family="Breetty" pointSize="25"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                                <color key="value" red="0.90588235294117647" green="0.29803921568627451" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="borderStatus" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header" translatesAutoresizingMaskIntoConstraints="NO" id="Ee6-ib-546">
+                                        <rect key="frame" x="66" y="33" width="283" height="74"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="74" id="YqI-mB-w7i"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o90-aR-UL3" customClass="RoundedButton" customModule="Foodaily" customModuleProvider="target">
+                                        <rect key="frame" x="33" y="651" width="348" height="60"/>
+                                        <color key="backgroundColor" red="0.23137254901960785" green="0.34901960784313724" blue="0.59607843137254901" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBlack" family="Helvetica Neue" pointSize="25"/>
+                                        <state key="normal" title="Login With Facebook">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20G-VH-sYM" customClass="RoundedButton" customModule="Foodaily" customModuleProvider="target">
+                                        <rect key="frame" x="33" y="583" width="348" height="60"/>
+                                        <color key="backgroundColor" red="0.90588235289999997" green="0.29803921570000003" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Breetty" family="Breetty" pointSize="25"/>
+                                        <state key="normal" title="Register">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                    </button>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="JBJ-JY-KD1" customClass="LoginTextField" customModule="Foodaily" customModuleProvider="target">
+                                        <rect key="frame" x="33" y="264" width="348" height="60"/>
+                                        <color key="textColor" red="0.90588235294117647" green="0.29803921568627451" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Breetty" family="Breetty" pointSize="25"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="leftPadding">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="color">
+                                                <color key="value" red="0.90588235294117647" green="0.29803921568627451" blue="0.23529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="borderStatus" value="YES"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't have an account ?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KKi-h7-PdQ">
+                                        <rect key="frame" x="33" y="539" width="348" height="36"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="36" id="gDh-Qe-VBx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Breetty" family="Breetty" pointSize="20"/>
+                                        <color key="textColor" red="0.90588235289999997" green="0.29803921570000003" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="o90-aR-UL3" firstAttribute="top" secondItem="20G-VH-sYM" secondAttribute="bottom" constant="8" id="0Re-pa-JBV"/>
+                                    <constraint firstItem="o90-aR-UL3" firstAttribute="top" relation="greaterThanOrEqual" secondItem="20G-VH-sYM" secondAttribute="bottom" constant="5" id="1gQ-3l-uYK"/>
+                                    <constraint firstItem="JBJ-JY-KD1" firstAttribute="height" secondItem="F8l-oK-J3j" secondAttribute="height" id="47B-Ny-XZT"/>
+                                    <constraint firstItem="o90-aR-UL3" firstAttribute="height" secondItem="F8l-oK-J3j" secondAttribute="height" id="4Ea-pv-yIa"/>
+                                    <constraint firstItem="JBJ-JY-KD1" firstAttribute="width" secondItem="F8l-oK-J3j" secondAttribute="width" id="4II-az-kk8"/>
+                                    <constraint firstAttribute="trailing" secondItem="o90-aR-UL3" secondAttribute="trailing" constant="33" id="55K-12-WRj"/>
+                                    <constraint firstItem="JBJ-JY-KD1" firstAttribute="top" relation="greaterThanOrEqual" secondItem="F8l-oK-J3j" secondAttribute="bottom" constant="5" id="59j-Z9-sHe"/>
+                                    <constraint firstAttribute="trailing" secondItem="20G-VH-sYM" secondAttribute="trailing" constant="33" id="6ZO-Vg-d0J"/>
+                                    <constraint firstItem="KKi-h7-PdQ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="JBJ-JY-KD1" secondAttribute="bottom" constant="10" id="797-EK-OSv"/>
+                                    <constraint firstItem="Ee6-ib-546" firstAttribute="top" relation="greaterThanOrEqual" secondItem="MHv-82-bhm" secondAttribute="top" constant="33" id="8Dn-AE-8v4"/>
+                                    <constraint firstItem="JBJ-JY-KD1" firstAttribute="height" secondItem="F8l-oK-J3j" secondAttribute="height" id="BRn-6n-NNg"/>
+                                    <constraint firstItem="F8l-oK-J3j" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Ee6-ib-546" secondAttribute="bottom" constant="10" id="C4c-mE-E2X"/>
+                                    <constraint firstItem="20G-VH-sYM" firstAttribute="top" secondItem="KKi-h7-PdQ" secondAttribute="bottom" constant="8" id="Crj-YL-Vxt"/>
+                                    <constraint firstItem="o90-aR-UL3" firstAttribute="width" secondItem="20G-VH-sYM" secondAttribute="width" id="DAn-UW-LVZ"/>
+                                    <constraint firstItem="Ee6-ib-546" firstAttribute="top" relation="lessThanOrEqual" secondItem="MHv-82-bhm" secondAttribute="top" constant="33" id="MOs-BL-Vaj"/>
+                                    <constraint firstItem="20G-VH-sYM" firstAttribute="leading" secondItem="MHv-82-bhm" secondAttribute="leading" constant="33" id="PPS-yL-o8d"/>
+                                    <constraint firstItem="Ee6-ib-546" firstAttribute="leading" secondItem="MHv-82-bhm" secondAttribute="leading" constant="66" id="PQX-mk-bNh"/>
+                                    <constraint firstAttribute="trailing" secondItem="F8l-oK-J3j" secondAttribute="trailing" constant="33" id="RqN-Q9-FUk"/>
+                                    <constraint firstItem="JBJ-JY-KD1" firstAttribute="top" secondItem="F8l-oK-J3j" secondAttribute="bottom" constant="20" id="TNh-c0-OXK"/>
+                                    <constraint firstItem="F8l-oK-J3j" firstAttribute="leading" secondItem="MHv-82-bhm" secondAttribute="leading" constant="33" id="UN1-qD-XbE"/>
+                                    <constraint firstItem="F8l-oK-J3j" firstAttribute="trailing" secondItem="JBJ-JY-KD1" secondAttribute="trailing" id="UW7-mL-JyS"/>
+                                    <constraint firstItem="F8l-oK-J3j" firstAttribute="leading" secondItem="JBJ-JY-KD1" secondAttribute="leading" id="UuJ-Xm-w1k"/>
+                                    <constraint firstItem="Ee6-ib-546" firstAttribute="centerX" secondItem="MHv-82-bhm" secondAttribute="centerX" id="VkS-ub-fq9"/>
+                                    <constraint firstItem="KKi-h7-PdQ" firstAttribute="leading" secondItem="20G-VH-sYM" secondAttribute="leading" id="W3r-fG-aml"/>
+                                    <constraint firstItem="20G-VH-sYM" firstAttribute="top" relation="lessThanOrEqual" secondItem="KKi-h7-PdQ" secondAttribute="bottom" constant="8" id="WCF-aB-pJr"/>
+                                    <constraint firstItem="o90-aR-UL3" firstAttribute="height" secondItem="20G-VH-sYM" secondAttribute="height" id="Xex-g1-tU8"/>
+                                    <constraint firstItem="F8l-oK-J3j" firstAttribute="leading" secondItem="o90-aR-UL3" secondAttribute="leading" id="Z8C-lr-QYq"/>
+                                    <constraint firstItem="Ee6-ib-546" firstAttribute="top" secondItem="MHv-82-bhm" secondAttribute="top" priority="999" constant="33" id="ZBV-PH-iwC"/>
+                                    <constraint firstItem="KKi-h7-PdQ" firstAttribute="trailing" secondItem="20G-VH-sYM" secondAttribute="trailing" id="aRi-5L-R6p"/>
+                                    <constraint firstItem="20G-VH-sYM" firstAttribute="height" secondItem="F8l-oK-J3j" secondAttribute="height" id="aZL-r1-cDA"/>
+                                    <constraint firstItem="JBJ-JY-KD1" firstAttribute="top" relation="lessThanOrEqual" secondItem="F8l-oK-J3j" secondAttribute="bottom" constant="20" id="d33-2v-JwN"/>
+                                    <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="JBJ-JY-KD1" secondAttribute="bottom" constant="411.99999999999994" id="dky-l7-O2p"/>
+                                    <constraint firstItem="F8l-oK-J3j" firstAttribute="top" secondItem="Ee6-ib-546" secondAttribute="bottom" priority="999" constant="77" id="eo6-DA-F9r"/>
+                                    <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="o90-aR-UL3" secondAttribute="bottom" constant="25.000000000000114" id="hJh-7P-djb"/>
+                                    <constraint firstAttribute="bottom" secondItem="KKi-h7-PdQ" secondAttribute="bottom" constant="161" id="nuN-Vr-HXL"/>
+                                    <constraint firstItem="F8l-oK-J3j" firstAttribute="trailing" secondItem="o90-aR-UL3" secondAttribute="trailing" id="oy7-VN-hxh"/>
+                                    <constraint firstItem="20G-VH-sYM" firstAttribute="top" relation="greaterThanOrEqual" secondItem="KKi-h7-PdQ" secondAttribute="bottom" constant="5" id="tIt-9D-Wx3"/>
+                                    <constraint firstItem="KKi-h7-PdQ" firstAttribute="top" relation="lessThanOrEqual" secondItem="JBJ-JY-KD1" secondAttribute="bottom" constant="215" id="wDQ-0A-bpk"/>
+                                    <constraint firstItem="o90-aR-UL3" firstAttribute="top" relation="lessThanOrEqual" secondItem="20G-VH-sYM" secondAttribute="bottom" constant="8" id="wh5-IX-4pP"/>
+                                    <constraint firstItem="o90-aR-UL3" firstAttribute="leading" secondItem="MHv-82-bhm" secondAttribute="leading" constant="33" id="yzY-IE-8k5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="MHv-82-bhm" secondAttribute="trailing" id="BCm-10-ZRV"/>
+                            <constraint firstItem="MHv-82-bhm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="MRc-Jt-vIv"/>
+                            <constraint firstItem="MHv-82-bhm" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="aRh-FA-oKF"/>
+                            <constraint firstItem="MHv-82-bhm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="bD8-HH-E39"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="facebookButton" destination="o90-aR-UL3" id="J67-fh-9aV"/>
+                        <outlet property="headerImageView" destination="Ee6-ib-546" id="6M9-r2-ATc"/>
+                        <outlet property="overlayView" destination="MHv-82-bhm" id="uN8-hL-qps"/>
+                        <outlet property="passwordTextField" destination="JBJ-JY-KD1" id="y32-jS-6x5"/>
+                        <outlet property="registerButton" destination="20G-VH-sYM" id="Dkg-fx-HJX"/>
+                        <outlet property="usernameTextField" destination="F8l-oK-J3j" id="unl-gD-HBi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="231.8840579710145" y="-391.304347826087"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="sUS-4m-5Qp">
+            <objects>
+                <viewController id="QYH-op-YK0" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="p2g-U9-1tY"/>
+                        <viewControllerLayoutGuide type="bottom" id="91h-fc-2WZ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Q25-EG-KWc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="80v-nu-bgd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="of5-Nh-ptg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1187" y="612"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="e6b-7o-yo0">
+            <objects>
+                <viewController id="KXJ-LI-fHX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lL3-7y-72k"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qie-ix-HBA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0Sz-m0-8yu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="BpB-64-X91"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kmT-dP-UUL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1187" y="-43"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="Z0T-IF-fKj">
+            <objects>
+                <tabBarController id="VVz-90-xxx" customClass="HomeViewController" customModule="Foodaily" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="UcW-li-NzH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="KXJ-LI-fHX" kind="relationship" relationship="viewControllers" id="FYL-zi-rLy"/>
+                        <segue destination="QYH-op-YK0" kind="relationship" relationship="viewControllers" id="Ycn-Dw-EiX"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d4Z-qU-1se" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="235" y="285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="header" width="640" height="480"/>
+    </resources>
+</document>
