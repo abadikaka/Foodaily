@@ -83,8 +83,8 @@ class LoginTextField: UITextField {
             layer.addSublayer(borderLayer)
         }else{
             layer.cornerRadius = 5.0
-            layer.borderWidth = 1.0
-            layer.borderColor = UIColor.red.cgColor
+            layer.borderWidth = 3.0
+            layer.borderColor = UIColor(rgb: 0x96281B).cgColor
         }
     }
 

@@ -17,13 +17,13 @@
 		455C27E81F322AEF00E0BD7E /* FoodailyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455C27E71F322AEF00E0BD7E /* FoodailyUITests.swift */; };
 		455C27FB1F322C5300E0BD7E /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455C27FA1F322C5300E0BD7E /* HomeTableViewController.swift */; };
 		455C27FD1F322C8C00E0BD7E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455C27FC1F322C8C00E0BD7E /* LoginViewController.swift */; };
-		455C27FF1F322CCE00E0BD7E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455C27FE1F322CCE00E0BD7E /* HomeViewController.swift */; };
 		455C28021F32335E00E0BD7E /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455C28011F32335E00E0BD7E /* LoginTextField.swift */; };
 		455C28071F32355000E0BD7E /* Breetty-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 455C28041F3234C500E0BD7E /* Breetty-Italic.otf */; };
 		455C28081F32355000E0BD7E /* Breetty-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 455C28051F3234C500E0BD7E /* Breetty-Regular.otf */; };
 		455C28091F32355000E0BD7E /* arrows.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 455C28061F3234C500E0BD7E /* arrows.ttf */; };
 		455C280B1F32382500E0BD7E /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455C280A1F32382500E0BD7E /* RoundedButton.swift */; };
 		455C280D1F32386900E0BD7E /* AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455C280C1F32386900E0BD7E /* AppExtension.swift */; };
+		45B7DABB1F373A6D00043B5C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7DABA1F373A6D00043B5C /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,13 +60,13 @@
 		455C27E91F322AEF00E0BD7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		455C27FA1F322C5300E0BD7E /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		455C27FC1F322C8C00E0BD7E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		455C27FE1F322CCE00E0BD7E /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		455C28011F32335E00E0BD7E /* LoginTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
 		455C28041F3234C500E0BD7E /* Breetty-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Breetty-Italic.otf"; sourceTree = "<group>"; };
 		455C28051F3234C500E0BD7E /* Breetty-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Breetty-Regular.otf"; sourceTree = "<group>"; };
 		455C28061F3234C500E0BD7E /* arrows.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = arrows.ttf; sourceTree = "<group>"; };
 		455C280A1F32382500E0BD7E /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		455C280C1F32386900E0BD7E /* AppExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppExtension.swift; sourceTree = "<group>"; };
+		45B7DABA1F373A6D00043B5C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,7 +170,7 @@
 				455C27FC1F322C8C00E0BD7E /* LoginViewController.swift */,
 				455C27C61F322AEF00E0BD7E /* ViewController.swift */,
 				455C27FA1F322C5300E0BD7E /* HomeTableViewController.swift */,
-				455C27FE1F322CCE00E0BD7E /* HomeViewController.swift */,
+				45B7DABA1F373A6D00043B5C /* HomeViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -356,9 +356,9 @@
 				455C27CD1F322AEF00E0BD7E /* Foodaily.xcdatamodeld in Sources */,
 				455C27C71F322AEF00E0BD7E /* ViewController.swift in Sources */,
 				455C280B1F32382500E0BD7E /* RoundedButton.swift in Sources */,
+				45B7DABB1F373A6D00043B5C /* HomeViewController.swift in Sources */,
 				455C27FD1F322C8C00E0BD7E /* LoginViewController.swift in Sources */,
 				455C27C51F322AEF00E0BD7E /* AppDelegate.swift in Sources */,
-				455C27FF1F322CCE00E0BD7E /* HomeViewController.swift in Sources */,
 				455C28021F32335E00E0BD7E /* LoginTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

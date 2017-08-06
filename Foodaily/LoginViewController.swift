@@ -17,6 +17,8 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var overlayView: UIView!
     @IBOutlet weak var headerImageView: UIImageView!
     
+    let backgroundImage : UIImage = UIImage(named: "background-3")!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
@@ -24,11 +26,11 @@ class LoginViewController: UIViewController {
 
     
     private func setupView(){
-        view.backgroundColor = UIColor(patternImage: UIImage(named: "background-3")!)
-        headerImageView.tintColor = UIColor(rgb:0xe74c3c)
+        view.backgroundColor = UIColor(patternImage: backgroundImage)
+        headerImageView.tintColor = UIColor(rgb:0x96281B)
         overlayView.backgroundColor = UIColor(red: 0/255, green: 0/255, blue: 0/255, alpha: 0.2)
         overlayView.frame = view.frame
-        registerButton.setButtonProperties(cornerRadius: 10, backgroundColor: UIColor(rgb:0xe74c3c), titleColor: .white, titleColorHighlighted: UIColor(rgb: 0x2c3e50), borderColor: .black, borderWidth: 0)
+        registerButton.setButtonProperties(cornerRadius: 10, backgroundColor: UIColor(rgb:0x96281B), titleColor: .white, titleColorHighlighted: UIColor(rgb: 0x2c3e50), borderColor: .black, borderWidth: 0)
         facebookButton.setButtonProperties(cornerRadius: 10, backgroundColor: UIColor(rgb:0x3B5998), titleColor: .white, titleColorHighlighted: UIColor(rgb: 0x2c3e50), borderColor: .black, borderWidth: 0)
     }
     
