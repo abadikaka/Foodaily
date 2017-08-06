@@ -29,6 +29,7 @@ class LoginViewController: UIViewController {
         overlayView.backgroundColor = UIColor(red: 0/255, green: 0/255, blue: 0/255, alpha: 0.2)
         overlayView.frame = view.frame
         registerButton.setButtonProperties(cornerRadius: 10, backgroundColor: UIColor(rgb:0xe74c3c), titleColor: .white, titleColorHighlighted: UIColor(rgb: 0x2c3e50), borderColor: .black, borderWidth: 0)
+        facebookButton.setButtonProperties(cornerRadius: 10, backgroundColor: UIColor(rgb:0x3B5998), titleColor: .white, titleColorHighlighted: UIColor(rgb: 0x2c3e50), borderColor: .black, borderWidth: 0)
     }
     
     
