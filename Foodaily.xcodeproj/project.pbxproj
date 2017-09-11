@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		453298A51F4083D900B57AA6 /* DashedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453298A41F4083D900B57AA6 /* DashedView.swift */; };
+		4540E9191F3F01C9001FFD44 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4540E9181F3F01C9001FFD44 /* Category.swift */; };
+		4540E91B1F3F0313001FFD44 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4540E91A1F3F0313001FFD44 /* CategoryCell.swift */; };
+		4540E91D1F3F0396001FFD44 /* CategoryDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4540E91C1F3F0396001FFD44 /* CategoryDataSource.swift */; };
+		4540E9201F3F252C001FFD44 /* Category.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4540E91F1F3F252C001FFD44 /* Category.plist */; };
+		4540E9231F3F4455001FFD44 /* CategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4540E9221F3F4455001FFD44 /* CategoryCell.xib */; };
+		4540E9261F3F5557001FFD44 /* CategoryHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4540E9241F3F5557001FFD44 /* CategoryHeaderView.swift */; };
+		4540E9271F3F5557001FFD44 /* CategoryHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4540E9251F3F5557001FFD44 /* CategoryHeaderView.xib */; };
 		455C27C51F322AEF00E0BD7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455C27C41F322AEF00E0BD7E /* AppDelegate.swift */; };
-		455C27C71F322AEF00E0BD7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455C27C61F322AEF00E0BD7E /* ViewController.swift */; };
 		455C27CA1F322AEF00E0BD7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455C27C81F322AEF00E0BD7E /* Main.storyboard */; };
 		455C27CD1F322AEF00E0BD7E /* Foodaily.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 455C27CB1F322AEF00E0BD7E /* Foodaily.xcdatamodeld */; };
 		455C27CF1F322AEF00E0BD7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 455C27CE1F322AEF00E0BD7E /* Assets.xcassets */; };
 		455C27D21F322AEF00E0BD7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 455C27D01F322AEF00E0BD7E /* LaunchScreen.storyboard */; };
 		455C27DD1F322AEF00E0BD7E /* FoodailyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455C27DC1F322AEF00E0BD7E /* FoodailyTests.swift */; };
 		455C27E81F322AEF00E0BD7E /* FoodailyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455C27E71F322AEF00E0BD7E /* FoodailyUITests.swift */; };
-		455C27FB1F322C5300E0BD7E /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455C27FA1F322C5300E0BD7E /* HomeTableViewController.swift */; };
 		455C27FD1F322C8C00E0BD7E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455C27FC1F322C8C00E0BD7E /* LoginViewController.swift */; };
 		455C28021F32335E00E0BD7E /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455C28011F32335E00E0BD7E /* LoginTextField.swift */; };
 		455C28071F32355000E0BD7E /* Breetty-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 455C28041F3234C500E0BD7E /* Breetty-Italic.otf */; };
@@ -23,6 +29,13 @@
 		455C28091F32355000E0BD7E /* arrows.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 455C28061F3234C500E0BD7E /* arrows.ttf */; };
 		455C280B1F32382500E0BD7E /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455C280A1F32382500E0BD7E /* RoundedButton.swift */; };
 		455C280D1F32386900E0BD7E /* AppExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455C280C1F32386900E0BD7E /* AppExtension.swift */; };
+		45A0C7A21F4877E000F6A6F9 /* PopUpCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0C7A01F4877E000F6A6F9 /* PopUpCell.swift */; };
+		45A0C7A31F4877E000F6A6F9 /* PopUpTitleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45A0C7A11F4877E000F6A6F9 /* PopUpTitleCell.xib */; };
+		45A0C7A71F48782A00F6A6F9 /* PopUpCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45A0C7A51F48782A00F6A6F9 /* PopUpCategoryCell.xib */; };
+		45A0C7A91F4878AE00F6A6F9 /* PopUpIngredientStepCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45A0C7A81F4878AE00F6A6F9 /* PopUpIngredientStepCell.xib */; };
+		45A0C7AB1F4878DB00F6A6F9 /* PopUpPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45A0C7AA1F4878DB00F6A6F9 /* PopUpPostCell.xib */; };
+		45A0C7B01F487E2900F6A6F9 /* PopUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0C7AF1F487E2900F6A6F9 /* PopUpViewModel.swift */; };
+		45A0C7B71F4894E300F6A6F9 /* CellAddedDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A0C7B61F4894E300F6A6F9 /* CellAddedDelegate.swift */; };
 		45B7DABB1F373A6D00043B5C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B7DABA1F373A6D00043B5C /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,9 +57,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		453298A41F4083D900B57AA6 /* DashedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashedView.swift; sourceTree = "<group>"; };
+		4540E9181F3F01C9001FFD44 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		4540E91A1F3F0313001FFD44 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		4540E91C1F3F0396001FFD44 /* CategoryDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryDataSource.swift; sourceTree = "<group>"; };
+		4540E91F1F3F252C001FFD44 /* Category.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Category.plist; sourceTree = "<group>"; };
+		4540E9221F3F4455001FFD44 /* CategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryCell.xib; sourceTree = "<group>"; };
+		4540E9241F3F5557001FFD44 /* CategoryHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryHeaderView.swift; sourceTree = "<group>"; };
+		4540E9251F3F5557001FFD44 /* CategoryHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryHeaderView.xib; sourceTree = "<group>"; };
 		455C27C11F322AEF00E0BD7E /* Foodaily.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foodaily.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		455C27C41F322AEF00E0BD7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		455C27C61F322AEF00E0BD7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		455C27C91F322AEF00E0BD7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		455C27CC1F322AEF00E0BD7E /* Foodaily.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Foodaily.xcdatamodel; sourceTree = "<group>"; };
 		455C27CE1F322AEF00E0BD7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,7 +78,6 @@
 		455C27E31F322AEF00E0BD7E /* FoodailyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodailyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		455C27E71F322AEF00E0BD7E /* FoodailyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodailyUITests.swift; sourceTree = "<group>"; };
 		455C27E91F322AEF00E0BD7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		455C27FA1F322C5300E0BD7E /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
 		455C27FC1F322C8C00E0BD7E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		455C28011F32335E00E0BD7E /* LoginTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
 		455C28041F3234C500E0BD7E /* Breetty-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Breetty-Italic.otf"; sourceTree = "<group>"; };
@@ -66,6 +85,13 @@
 		455C28061F3234C500E0BD7E /* arrows.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = arrows.ttf; sourceTree = "<group>"; };
 		455C280A1F32382500E0BD7E /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		455C280C1F32386900E0BD7E /* AppExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppExtension.swift; sourceTree = "<group>"; };
+		45A0C7A01F4877E000F6A6F9 /* PopUpCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpCell.swift; sourceTree = "<group>"; };
+		45A0C7A11F4877E000F6A6F9 /* PopUpTitleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopUpTitleCell.xib; sourceTree = "<group>"; };
+		45A0C7A51F48782A00F6A6F9 /* PopUpCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopUpCategoryCell.xib; sourceTree = "<group>"; };
+		45A0C7A81F4878AE00F6A6F9 /* PopUpIngredientStepCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopUpIngredientStepCell.xib; sourceTree = "<group>"; };
+		45A0C7AA1F4878DB00F6A6F9 /* PopUpPostCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PopUpPostCell.xib; sourceTree = "<group>"; };
+		45A0C7AF1F487E2900F6A6F9 /* PopUpViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewModel.swift; sourceTree = "<group>"; };
+		45A0C7B61F4894E300F6A6F9 /* CellAddedDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellAddedDelegate.swift; sourceTree = "<group>"; };
 		45B7DABA1F373A6D00043B5C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,6 +120,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4540E91E1F3F250F001FFD44 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				4540E91F1F3F252C001FFD44 /* Category.plist */,
+			);
+			name = File;
+			sourceTree = "<group>";
+		};
+		4540E9211F3F4433001FFD44 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				4540E9221F3F4455001FFD44 /* CategoryCell.xib */,
+				4540E9251F3F5557001FFD44 /* CategoryHeaderView.xib */,
+				45A0C7A11F4877E000F6A6F9 /* PopUpTitleCell.xib */,
+				45A0C7A51F48782A00F6A6F9 /* PopUpCategoryCell.xib */,
+				45A0C7A81F4878AE00F6A6F9 /* PopUpIngredientStepCell.xib */,
+				45A0C7AA1F4878DB00F6A6F9 /* PopUpPostCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
 		455C27B81F322AEF00E0BD7E = {
 			isa = PBXGroup;
 			children = (
@@ -117,11 +164,14 @@
 		455C27C31F322AEF00E0BD7E /* Foodaily */ = {
 			isa = PBXGroup;
 			children = (
+				4540E91E1F3F250F001FFD44 /* File */,
 				455C28031F3234A700E0BD7E /* CustomFonts */,
 				455C28001F32333B00E0BD7E /* Components */,
+				45A0C7B51F4894C400F6A6F9 /* Protocol */,
 				455C27F91F322B3E00E0BD7E /* Interfaces */,
 				455C27F81F322B2E00E0BD7E /* Extension */,
 				455C27F51F322B0500E0BD7E /* Model */,
+				45A0C7AE1F487D7B00F6A6F9 /* ViewModel */,
 				455C27F61F322B0F00E0BD7E /* View */,
 				455C27F71F322B1400E0BD7E /* Controller */,
 				455C27C41F322AEF00E0BD7E /* AppDelegate.swift */,
@@ -153,6 +203,8 @@
 		455C27F51F322B0500E0BD7E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				45A0C7B41F488CFF00F6A6F9 /* HomeCategory */,
+				45A0C7B31F488CF000F6A6F9 /* HomePopUp */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -160,6 +212,9 @@
 		455C27F61F322B0F00E0BD7E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				45A0C7A01F4877E000F6A6F9 /* PopUpCell.swift */,
+				4540E91A1F3F0313001FFD44 /* CategoryCell.swift */,
+				4540E9241F3F5557001FFD44 /* CategoryHeaderView.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -168,8 +223,6 @@
 			isa = PBXGroup;
 			children = (
 				455C27FC1F322C8C00E0BD7E /* LoginViewController.swift */,
-				455C27C61F322AEF00E0BD7E /* ViewController.swift */,
-				455C27FA1F322C5300E0BD7E /* HomeTableViewController.swift */,
 				45B7DABA1F373A6D00043B5C /* HomeViewController.swift */,
 			);
 			name = Controller;
@@ -186,6 +239,7 @@
 		455C27F91F322B3E00E0BD7E /* Interfaces */ = {
 			isa = PBXGroup;
 			children = (
+				4540E9211F3F4433001FFD44 /* Cell */,
 				455C27C81F322AEF00E0BD7E /* Main.storyboard */,
 				455C27D01F322AEF00E0BD7E /* LaunchScreen.storyboard */,
 			);
@@ -197,6 +251,7 @@
 			children = (
 				455C28011F32335E00E0BD7E /* LoginTextField.swift */,
 				455C280A1F32382500E0BD7E /* RoundedButton.swift */,
+				453298A41F4083D900B57AA6 /* DashedView.swift */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -209,6 +264,38 @@
 				455C28061F3234C500E0BD7E /* arrows.ttf */,
 			);
 			name = CustomFonts;
+			sourceTree = "<group>";
+		};
+		45A0C7AE1F487D7B00F6A6F9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				45A0C7AF1F487E2900F6A6F9 /* PopUpViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		45A0C7B31F488CF000F6A6F9 /* HomePopUp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HomePopUp;
+			sourceTree = "<group>";
+		};
+		45A0C7B41F488CFF00F6A6F9 /* HomeCategory */ = {
+			isa = PBXGroup;
+			children = (
+				4540E9181F3F01C9001FFD44 /* Category.swift */,
+				4540E91C1F3F0396001FFD44 /* CategoryDataSource.swift */,
+			);
+			name = HomeCategory;
+			sourceTree = "<group>";
+		};
+		45A0C7B51F4894C400F6A6F9 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				45A0C7B61F4894E300F6A6F9 /* CellAddedDelegate.swift */,
+			);
+			name = Protocol;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,6 +414,13 @@
 				455C27CA1F322AEF00E0BD7E /* Main.storyboard in Resources */,
 				455C28071F32355000E0BD7E /* Breetty-Italic.otf in Resources */,
 				455C28081F32355000E0BD7E /* Breetty-Regular.otf in Resources */,
+				45A0C7AB1F4878DB00F6A6F9 /* PopUpPostCell.xib in Resources */,
+				45A0C7A71F48782A00F6A6F9 /* PopUpCategoryCell.xib in Resources */,
+				4540E9271F3F5557001FFD44 /* CategoryHeaderView.xib in Resources */,
+				4540E9201F3F252C001FFD44 /* Category.plist in Resources */,
+				45A0C7A91F4878AE00F6A6F9 /* PopUpIngredientStepCell.xib in Resources */,
+				4540E9231F3F4455001FFD44 /* CategoryCell.xib in Resources */,
+				45A0C7A31F4877E000F6A6F9 /* PopUpTitleCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,14 +446,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				455C280D1F32386900E0BD7E /* AppExtension.swift in Sources */,
-				455C27FB1F322C5300E0BD7E /* HomeTableViewController.swift in Sources */,
+				45A0C7B71F4894E300F6A6F9 /* CellAddedDelegate.swift in Sources */,
+				4540E9191F3F01C9001FFD44 /* Category.swift in Sources */,
 				455C27CD1F322AEF00E0BD7E /* Foodaily.xcdatamodeld in Sources */,
-				455C27C71F322AEF00E0BD7E /* ViewController.swift in Sources */,
+				453298A51F4083D900B57AA6 /* DashedView.swift in Sources */,
 				455C280B1F32382500E0BD7E /* RoundedButton.swift in Sources */,
 				45B7DABB1F373A6D00043B5C /* HomeViewController.swift in Sources */,
+				45A0C7A21F4877E000F6A6F9 /* PopUpCell.swift in Sources */,
 				455C27FD1F322C8C00E0BD7E /* LoginViewController.swift in Sources */,
+				45A0C7B01F487E2900F6A6F9 /* PopUpViewModel.swift in Sources */,
+				4540E91D1F3F0396001FFD44 /* CategoryDataSource.swift in Sources */,
 				455C27C51F322AEF00E0BD7E /* AppDelegate.swift in Sources */,
 				455C28021F32335E00E0BD7E /* LoginTextField.swift in Sources */,
+				4540E9261F3F5557001FFD44 /* CategoryHeaderView.swift in Sources */,
+				4540E91B1F3F0313001FFD44 /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

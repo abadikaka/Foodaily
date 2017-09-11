@@ -23,7 +23,6 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         setupView()
     }
-
     
     private func setupView(){
         view.backgroundColor = UIColor(patternImage: backgroundImage)
@@ -34,6 +33,9 @@ class LoginViewController: UIViewController {
         facebookButton.setButtonProperties(cornerRadius: 10, backgroundColor: UIColor(rgb:0x3B5998), titleColor: .white, titleColorHighlighted: UIColor(rgb: 0x2c3e50), borderColor: .black, borderWidth: 0)
     }
     
+    @IBAction func handleRegisterButton(_ sender: Any) {
+        dismiss(animated: false, completion: nil)
+    }
     
     
     /*
